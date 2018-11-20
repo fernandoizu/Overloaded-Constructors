@@ -1,0 +1,15 @@
+public class Main {
+    
+    public static void main(String[] args){
+    
+        User User1 = new User("Fernando");
+        User User2 = new User("Fernando", "Nunez Izu");
+        User User3 = new User("Fernando", "Nunez Izu", 27);
+
+        System.out.println(User1.getData());
+        System.out.println(User2.getData());
+        System.out.println(User3.getData());
+    
+    
+    }
+}
